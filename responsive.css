@@ -1,0 +1,26 @@
+@media (min-width: 576px) {
+  .card-container {
+     
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
+  .hero {
+    text-align: center;
+  }
+  .natur {
+    height: 450px;
+  }
+
+}
+@media (min-width: 768px) {
+  .card-container {
+     
+    grid-template-columns: 1fr;
+  }
+  .links {
+     
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 3rem;
+  }
+}
