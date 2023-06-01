@@ -1,15 +1,16 @@
 @media (min-width: 576px) {
+    body{
+        text-align: center;
+    }
   .card-container {
      
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
     margin-bottom: 50px;
   }
   .hero {
     text-align: center;
   }
-  .natur {
-    height: 450px;
-  }
+  
 
 }
 @media (min-width: 768px) {
