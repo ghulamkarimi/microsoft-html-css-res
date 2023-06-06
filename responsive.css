@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     body{
         text-align: center;
     }
@@ -10,6 +10,13 @@
   .hero {
     text-align: center;
   }
+  .natur-content p {
+   display: none;
+  }
+   .natur-content {
+  padding: 30px;
+  width: 50%;
+}
   
 
 }
