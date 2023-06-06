@@ -1,3 +1,15 @@
+:root{
+  font-size: 62.5%;
+}
+p{
+  font-size: 1.6rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 1.82rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -121,7 +133,7 @@ button a {
 }
 .links li a {
   text-decoration: none;
-  font-size: 0.7rem;
+  
   color: white;
   line-height: 3.5rem;
 }
@@ -129,8 +141,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 10px;
-  font-size: 0.9rem;
+  gap: 20px;
+    align-items: center;
 }
 footer p {
   color: white;
