@@ -2,15 +2,21 @@
   margin: 0;
   padding: 0;
 }
+
+ 
+
 :root {
   font-size: 62.5%;
 }
+
 p {
   font-size: 1.6rem;
 }
+
 h2 {
   font-size: 3rem;
 }
+
 h3 {
   font-size: 1.82rem;
 }
@@ -30,18 +36,20 @@ header {
 
   align-items: center;
 }
+
 header ul {
   display: flex;
   gap: 10px;
   margin-left: 10px;
 }
+
 li {
   list-style: none;
 }
 
 header img {
   height: 25px;
-   
+
 }
 
 header a {
@@ -49,12 +57,14 @@ header a {
   font-size: 1.6rem;
   text-decoration: none;
   text-align: center;
- 
+
 }
+
 .hero {
   background: url(./image/slide1.png) no-repeat center center/cover;
   height: 600px;
 }
+
 .hero {
   display: flex;
   justify-content: center;
@@ -67,19 +77,23 @@ header a {
   margin-top: 150px;
   margin-bottom: 10px;
 }
+
 button {
   padding: 10px 12px;
   margin-top: 25px;
   background-color: black;
 }
+
 button a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
+
 .hero button:hover {
   opacity: 0.7;
 }
+
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -92,38 +106,44 @@ button a {
 .card-container img {
   width: 100%;
 }
+
 .xbox {
   background: url(./image/xbox.png) no-repeat center center/cover;
   height: 450px;
   margin-top: 30px;
 }
+
 .xbox-content {
   width: 50%;
   padding: 50px;
 }
-.xbox-content button {
-}
+
+.xbox-content button {}
+
 .natur {
   background: url(./image/carbon.jpg) no-repeat center center/cover;
   height: 350px;
-padding:10px 0 0 5vw  ;
-  margin-top: 20px; 
-  color:white;
+  padding: 10px 0 0 5vw;
+  margin-top: 20px;
+  color: white;
 }
- 
+
 .natur-content h2 {
   color: white;
 }
+
 .natur-content p {
   color: white;
   margin-top: 20px;
 }
+
 .sozial {
   display: flex;
   gap: 15px;
   margin: 10px;
   width: 100%;
 }
+
 .links {
   display: grid;
   grid-template-columns: 1fr;
@@ -131,15 +151,18 @@ padding:10px 0 0 5vw  ;
   background-color: rgb(129, 131, 158);
   text-align: center;
 }
+
 .links ul {
   list-style: none;
 }
+
 .links li a {
   text-decoration: none;
 
   color: white;
   line-height: 3.5rem;
 }
+
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -147,16 +170,20 @@ footer {
   gap: 20px;
   align-items: center;
 }
+
 footer p {
   color: white;
 }
+
 footer a {
   text-decoration: none;
   color: white;
 }
-select{
+
+select {
   padding: 5px;
   outline: none;
   background-color: rgb(122, 158, 158);
 }
+
 select

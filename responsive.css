@@ -2,6 +2,9 @@
     body{
         text-align: center;
     }
+    header ul{
+      display: none;
+    }
   .card-container {
      
     grid-template-columns:1fr;
